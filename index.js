@@ -23,3 +23,7 @@ function appendkitten(name){
   kittens=[...kittens,name]
   return kittens
 }
+function prependkitten(name){
+  kittens=[kittens...,name]
+  return kittens
+}
