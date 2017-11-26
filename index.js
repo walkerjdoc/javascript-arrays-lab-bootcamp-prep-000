@@ -5,7 +5,9 @@ var kittens= ["Milo",
 ]
 function destructivelyAppendKitten(name){
   kittens.push(name)
+  return kittens
 }
 function destructivelyprependkitten(name){
   kittens.unshift(name)
+  return kittens
 }
