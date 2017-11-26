@@ -19,11 +19,11 @@ function destructivelyRemoveFirstKitten(){
   kittens= kittens.slice(1)
   return kittens
 }
-function appendkitten(name){
+function appendKitten(name){
   kittens=[...kittens,name]
   return kittens
 }
-function prependkitten(name){
+function prependKitten(name){
   kittens=[name,...kittens]
   return kittens
 }
