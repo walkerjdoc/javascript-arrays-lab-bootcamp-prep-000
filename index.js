@@ -32,6 +32,6 @@ function removeLastKitten(){
   return kittens2
 }
 function removeFirstKitten(){
-var kittens2= kittens.shift()
+var kittens2= kittens.slice(1)
   return kittens2
 }
